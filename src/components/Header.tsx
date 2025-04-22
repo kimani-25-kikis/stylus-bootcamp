@@ -10,6 +10,9 @@ export default function Header() {
     <nav className="bg-blue-600 text-white p-4">
       <div className="container mx-auto flex justify-between items-center">
       <img src="/Chain.jpeg" alt="CHAINWEB Logo" className="h-20 object-contain" />
+      <div className="bg-white p-2 rounded">
+            <img src="/stylus.jpeg" alt="Stylus Logo" className="h-12 object-contain" />
+          </div>
         <Link href="/" className="text-2xl font-bold">
           CHAINWEB
         </Link>
