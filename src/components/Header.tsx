@@ -9,6 +9,7 @@ export default function Header() {
   return (
     <nav className="bg-blue-600 text-white p-4">
       <div className="container mx-auto flex justify-between items-center">
+      <img src="/Chain Web.jpeg" alt="CHAINWEB Logo" className="h-8" />
         <Link href="/" className="text-2xl font-bold">
           CHAINWEB
         </Link>
