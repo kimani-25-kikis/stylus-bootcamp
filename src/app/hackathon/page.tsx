@@ -13,13 +13,13 @@ export default function Hackathon() {
       </p>
       <CountdownTimer targetDate={targetDate} />
       <a
-        href="https://forms.gle/your-rsvp-form"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 mt-6 inline-block"
-      >
-        RSVP Now
-      </a>
+      href="https://forms.gle/actual-rsvp-form"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 mt-6 inline-block"
+    >
+      RSVP Now
+    </a>
     </div>
   );
 }
