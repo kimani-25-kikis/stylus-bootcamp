@@ -3,7 +3,7 @@
 import CountdownTimer from '@/components/CountdownTimer';
 
 export default function Hackathon() {
-  const targetDate = new Date('2025-06-15T00:00:00'); // Adjust to actual date
+  const targetDate = new Date('2025-05-19T00:00:00');
 
   return (
     <div className="container mx-auto p-4 text-center">
@@ -13,13 +13,13 @@ export default function Hackathon() {
       </p>
       <CountdownTimer targetDate={targetDate} />
       <a
-      href="https://forms.gle/actual-rsvp-form"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 mt-6 inline-block"
-    >
-      RSVP Now
-    </a>
+        href="https://forms.gle/codeafricahackathon2025"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 mt-6 inline-block"
+      >
+        RSVP Now
+      </a>
     </div>
   );
 }
